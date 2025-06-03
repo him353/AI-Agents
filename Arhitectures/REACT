@@ -1,1 +1,3 @@
+REACT (Reasoning + Acting)
 
+ReAct is a prompt-based architecture that enables LLMs (like GPT) to reason through problems and take actions by interleaving thoughts (reasoning) and actions (tool use or API calls).
