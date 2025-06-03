@@ -1,3 +1,23 @@
 REACT (Reasoning + Acting)
 
 ReAct is a prompt-based architecture that enables LLMs (like GPT) to reason through problems and take actions by interleaving thoughts (reasoning) and actions (tool use or API calls).
+
+Why REACT?
+1. Traditional LLMs often hallucinate or lack memory/tool usage.
+2. ReAct allows the model to:
+   a.Think step-by-step (like Chain-of-Thought).
+   b.Take actions (e.g., search, calculate, call APIs).
+   c.Observe results, and reason again.
+3.This creates a feedback loop for better task solving.
+
+Core Components
+1. Thoughts
+2. Action
+3. Observation.
+4. Loop
+
+Where its helpful?
+1. RAG-based chatbots.
+2.Autonomous agents (like AutoGPT, BabyAGI).
+3.LangChain Agents.
+4.Multi-step task solving
